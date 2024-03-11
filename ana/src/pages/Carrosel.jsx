@@ -1,8 +1,15 @@
+import React from "react";
+import "bootstrap/dist/css/bootstrap.min.css";
 import Carousel from 'react-bootstrap/Carousel';
+import Navbar from './navbar'
 
-function Slider() {
+function Carrosel() {
   return (
+    <div>
+        <Navbar></Navbar>
     <Carousel data-bs-theme="dark">
+        <a href=""></a>
+        <h1>Coisas Legais</h1>
       <Carousel.Item>
         <img
           className="d-block w-100"
@@ -10,8 +17,8 @@ function Slider() {
           alt="First slide"
         />
         <Carousel.Caption>
-          <h5>First slide label</h5>
-          <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+          <h5>Pokemon</h5>
+          <p>Parabens ao Mudkip</p>
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
@@ -21,14 +28,15 @@ function Slider() {
           alt="Second slide"
         />
         <Carousel.Caption>
-          <h5>Second slide label</h5>
+          <h5>Sherek</h5>
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
         <img
           className="d-block w-100"
-          src="holder.js/800x400?text=Third slide&bg=e5e5e5"
+          id="pinochio"
+          src="https://i0.wp.com/apublica.org/wp-content/uploads/2017/01/pinochet-1.jpg?fit=2450%2C1470&ssl=1"
           alt="Third slide"
         />
         <Carousel.Caption>
@@ -39,7 +47,8 @@ function Slider() {
         </Carousel.Caption>
       </Carousel.Item>
     </Carousel>
-  );
+    </div>
+  ); 
 }
 
-export default Slider;
+export default Carrosel;
