@@ -1,0 +1,95 @@
+#body{
+    display: flex;
+    color: rgb(255, 255, 255);
+    justify-content: space-between;
+    align-items: center;
+background-color: black;}
+
+#center{
+    justify-content: center;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#sobre, #servicos, #depoimentos{
+    font-size: 5vh;
+    padding: 10px;
+}
+
+#contatos{
+    background-color: blue;
+    display: flex;
+    border-radius: 10%;
+    width: 20vh;
+    text-align: center;
+    height: 10vh;
+    align-items: center;
+    justify-content: center;
+    font-size: 3vh;
+}
+
+#body2{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(72, 0, 0);
+}
+
+#center2{
+    display: flex;
+    font-size: 5vh;
+    color: white;
+}
+
+#sobre2, #servicos2, #depoimentos2, #contatos2{
+    padding: 10px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#contatos2{
+    background-color: blue;
+    border-radius: 10%;
+    width: 20vh;
+    height: 10vh;
+    font-size: 3vh;
+}
+
+#body3{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(214, 214, 214);
+}
+
+#center3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+#sobre3, #servicos3, #depoimentos3, #contatos3{
+    padding: 10px;
+    font-size: 5vh;
+}
+
+#contatos3{
+    justify-content: center;
+    background-color: blue;
+    border-radius: 10%;
+    width: 20vh;
+    height: 10vh;
+    font-size: 3vh;
+}
+
+.images {
+    display: flex;
+}
+
+.images img{
+    width: 30vh;
+    padding: 10px;
+}

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+ "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg
+ xmlns="http://www.w3.org/2000/svg"
+ xmlns:xlink="http://www.w3.org/1999/xlink"
+ version="1.1"
+ width="511"
+ height="511">
+
+<rect x="0" y="0" width="512" height="512" style="fill: black;" />
+<circle cx="256" cy="256" r="233" style="stroke: white; stroke-width: 18;" />
+
+<g id="edge" transform="translate(2 0)">
+ <path
+  d="M 485.80822,330.9275 L 447.96845,330.9275 L 457.48615,309.78263 L 485.80822,330.9275 z"
+  style="fill:#000" />
+ <path
+  d="M 224.35975,325.5063 L 220.42718,311.2407 L 424.63751,311.55922 L 336.66628,247.34393 L 341.12052,233.23884 L 468.43754,325.29312 L 224.35975,325.5063 z"
+  style="fill:#fff" />
+</g>
+
+<use xlink:href="#edge" transform="rotate(72 256 256)" />
+<use xlink:href="#edge" transform="rotate(144 256 256)" />
+<use xlink:href="#edge" transform="rotate(216 256 256)" />
+<use xlink:href="#edge" transform="rotate(288 256 256)" />
+</svg>
